@@ -4,8 +4,7 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        if x < 0:
-            return False
+        if x<0: return False
         x = str(x)
         l, r = 0, len(x)-1
         while l<=r:
